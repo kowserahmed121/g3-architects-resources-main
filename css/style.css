@@ -226,3 +226,52 @@ header {
 .love-img-content h4 {
   font-size: 40px;
 }
+
+/* fact container css */
+.fact-container {
+  margin: 150px auto;
+  max-width: 980px;
+}
+
+.fact-container h2 {
+  color: var(--heading);
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  margin-bottom: 15px;
+}
+
+.fact-container > p {
+  color: var(--paragraph);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 100px;
+}
+
+.fact-flex-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.fact-flex {
+  border: 2px solid #ff900e;
+  text-align: center;
+  padding: 30px 0px;
+  border-radius: 8px;
+}
+
+.fact-flex h3 {
+  color: var(--header-ul);
+  font-size: 45px;
+  font-weight: 600;
+  margin: 10px 0px;
+}
+
+.fact-flex p {
+  color: var(--paragraph);
+  font-size: 20px;
+  font-weight: 600;
+}
