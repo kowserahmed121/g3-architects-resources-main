@@ -275,3 +275,53 @@ header {
   font-size: 20px;
   font-weight: 600;
 }
+
+.sponspor-container {
+  margin: 100px auto;
+  max-width: 1120px;
+  text-align: center;
+}
+
+.sponspor-container h2 {
+  color: var(--heading);
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.sponspor-container p {
+  color: var(--paragraph);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.sponspor-img {
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.sponspor-img img {
+  width: 126px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* footer container css here  */
+
+.footer-container {
+  margin: 100px auto;
+  max-width: 1120px;
+  background-color: rgb(255, 244, 231);
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.footer-container p {
+  color: var(--header-ul);
+  font-size: 20px;
+  font-weight: 400;
+}
